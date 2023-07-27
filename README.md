@@ -16,4 +16,4 @@ This project aims to perform sentiment analysis on customer reviews using Apache
 * Iterative execution and scheduling: The pipeline can be scheduled to run iteratively after each hour, ensuring continuous dumping data from s3 to HDFS
 
 # Instructions
-The main project folder is named "pipeline".
+The main project folder is named (https://github.com/krishna7356/Sentimental-Analysis/tree/main/pipeline).
