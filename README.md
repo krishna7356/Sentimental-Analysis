@@ -16,19 +16,4 @@ This project aims to perform sentiment analysis on customer reviews using Apache
 * Iterative execution and scheduling: The pipeline can be scheduled to run iteratively after each hour, ensuring continuous dumping data from s3 to HDFS
 
 # Instructions
-
-* Prerequisites:
-
-  Apache Spark  and Hadoop  should be installed and configured.
-  Ensure access to the specified S3 bucket and HDFS storage location.
-  Set up necessary authentication credentials for accessing S3 and HDFS.
-
-* Configuration:
-
-  Update the configuration files (spark-config.json, s3-config.json, hdfs-config.json) with the appropriate credentials and file locations.
-  Adjust any additional parameters in the configuration files according to your requirements.
-
-* Execution:
-
-  Run the main.py script to initiate the sentiment analysis pipeline.
-  The pipeline will read the customer reviews from the specified S3 bucket and store the  data in to  HDFS.
+The main project folder is named "pipeline".
